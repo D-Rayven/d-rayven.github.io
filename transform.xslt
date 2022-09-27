@@ -27,7 +27,7 @@
     <xsl:text>&#013;</xsl:text>
   </xsl:template>
 
-  <xsl:template match="rdf:RDF/foaf:Person/knows">
+  <xsl:template match="rdf:RDF/foaf:knows/foaf:Person">
     <h2>
       name: <xsl:value-of select="foaf:name" />
     </h2>
