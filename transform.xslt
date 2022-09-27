@@ -23,11 +23,14 @@
     <h2>
       mbox_sha1sum: <xsl:value-of select="foaf:mbox_sha1sum" />
     </h2>
-
-    <h3>
-      Louis: <xsl:value-of select="rdfs:seeAlso" />
-    </h3>
     <br />
     <xsl:text>&#013;</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="rdf:RDF/foaf:Person/knows">
+    <h2>
+      name: <xsl:value-of select="foaf:name" />
+    </h2>
+
   </xsl:template>
 </xsl:stylesheet>
