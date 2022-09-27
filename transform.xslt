@@ -23,6 +23,10 @@
     <h2>
       mbox_sha1sum: <xsl:value-of select="foaf:mbox_sha1sum" />
     </h2>
+
+    <h3>
+      Louis: <xsl:value-of select="foaf:Louis" />
+    </h3>
     <br />
     <xsl:text>&#013;</xsl:text>
   </xsl:template>
