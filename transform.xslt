@@ -31,6 +31,8 @@
     <h2>
       name: <xsl:value-of select="foaf:name" />
     </h2>
-
+    <p>
+      <xsl:value-of select="rdfs:seeAlso/@rdf:resource" />
+    </p>
   </xsl:template>
 </xsl:stylesheet>
