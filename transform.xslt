@@ -25,7 +25,7 @@
     </h2>
 
     <h3>
-      Louis: <xsl:value-of select="foaf:Louis" />
+      Louis: <xsl:value-of select="rdfs:seeAlso" />
     </h3>
     <br />
     <xsl:text>&#013;</xsl:text>
